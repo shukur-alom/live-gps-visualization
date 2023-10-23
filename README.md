@@ -46,11 +46,9 @@ Before you can start with this project, make sure you have the following compone
 
 ## Project Structure
 
-- `esp32_code/`: Contains the code to run on the ESP32.
-- `python_server/`: Contains Python scripts to collect and visualize GPS data.
+- `esp.ino/`: Contains the code to run on the ESP32.
+- `main.py/`: Contains Python scripts to collect and visualize GPS data.
 - `requirements.txt`: Lists the Python package dependencies.
-- `gps_listener.py`: Python script for listening to MQTT messages and collecting GPS data.
-- `gps_visualizer.py`: Streamlit web application to visualize the GPS data.
 
 ## Additional Configuration
 
