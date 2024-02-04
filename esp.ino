@@ -42,7 +42,7 @@ void reconnect() {
 
 //const char* ssid = "Home Garden";
 const char* ssid = "Home";
-const char* password = "53384208@#sR";
+const char* password = "password";
 
 unsigned long previousMillis = 0;
 unsigned long interval = 30000;
@@ -59,7 +59,7 @@ void initWiFi() {
 }
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   Serial2.begin(GPS_BAUDRATE);
   initWiFi();
   setupMQTT();
